@@ -104,7 +104,7 @@ st.markdown(
 )
 
 # Set the title of the app with custom styling
-st.markdown('<h1 class="title">Visual Question Answering with Chatbot</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="title">IMAGE BASED QUESTION & ANSWERING</h1>', unsafe_allow_html=True)
 
 # Function to load the BLIP model and processor
 @st.cache_resource  # Cache the model to avoid reloading on every interaction
